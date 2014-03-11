@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:baselineAligned="false" android:layout_width="fill_parent"
+	android:layout_height="fill_parent" android:orientation="horizontal">
+
+	<LinearLayout android:baselineAligned="false"
+		android:layout_width="0dip" android:layout_height="fill_parent"
+		android:layout_weight="0.3" android:orientation="vertical">
+		<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+			android:id="@+id/pie" android:layout_width="fill_parent"
+			android:layout_height="0dip" android:layout_weight="0.25"
+			android:orientation="vertical" />
+
+		<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+			android:layout_width="fill_parent" android:layout_height="159dp"
+			android:background="@color/white">
+
+			<Button android:id="@+id/pending" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:layout_x="50dp"
+				android:layout_y="20dp" android:drawableLeft="@drawable/pending_pic"
+				android:textColor="@color/black" android:onClick="pending"
+				android:background="@android:color/transparent" />
+			<Button android:id="@+id/average" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:layout_x="50dp"
+				android:layout_y="90dp" android:drawableLeft="@drawable/average_pic"
+				android:textColor="@color/black" android:onClick="average"
+				android:background="@android:color/transparent" />
+			<Button android:id="@+id/good" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:layout_x="340dp"
+				android:layout_y="90dp" android:onClick="good" android:drawableLeft="@drawable/good"
+				android:textColor="@color/black" android:background="@android:color/transparent" />
+			<Button android:id="@+id/poor" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:layout_x="340dp"
+				android:layout_y="20dp" android:onClick="poor" android:drawableLeft="@drawable/poor"
+				android:background="@android:color/transparent" android:textColor="@color/black" />
+
+		</AbsoluteLayout>
+
+	</LinearLayout>
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		android:layout_width="184dp" android:layout_height="fill_parent"
+		android:background="@color/white" android:orientation="vertical">
+
+		<TextView android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:text="@string/subjectFilters"
+			android:textColor="@color/black" android:textSize="30dp"
+			android:background="@android:color/transparent" />
+		<ListView android:id="@+id/listView1" android:layout_width="fill_parent"
+			android:layout_height="wrap_content" android:background="@android:color/background_light"
+			android:headerDividersEnabled="true" android:divider="@android:color/white"
+			android:dividerHeight="1dp" />
+
+
+	</LinearLayout>
+
+</LinearLayout>

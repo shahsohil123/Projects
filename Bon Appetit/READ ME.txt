@@ -1,0 +1,2 @@
+This won't work anymore since google has changed the map api and included them as fragments
+in the Android api and is no longer available externally.

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="dexter.studentmonitoring"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk android:minSdkVersion="11" />
+
+    <application
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name" >
+        <activity
+            android:name=".StudentMonitoringActivity"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Light" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".PatentActivity"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Light" >
+        </activity>
+        <activity
+            android:name=".ActivityLogs"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Light" >
+        </activity>
+        <activity
+            android:name=".StudentLogsActivity"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Light" >
+        </activity>
+        <activity
+            android:name=".DexHelp"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Light" >
+        </activity>
+        <activity
+            android:name=".DexSettings"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Light" >
+        </activity>
+        <activity
+            android:name=".SyllabusStatus"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Light" >
+        </activity>
+        <activity
+            android:name=".TestResults"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Light" >
+        </activity>
+        <activity
+            android:name="PieSuccessActivity"
+            android:theme="@android:style/Theme.Light" >
+        </activity>
+        <activity
+            android:name="PieGraphActivity"
+            android:theme="@android:style/Theme.Light" >
+        </activity>
+        <activity
+            android:name=".Poor"
+            android:theme="@android:style/Theme.Light" >
+        </activity>
+        <activity
+            android:name=".Pending"
+            android:theme="@android:style/Theme.Light" >
+        </activity>
+        <activity
+            android:name=".Good"
+            android:theme="@android:style/Theme.Light" >
+        </activity>
+        <activity
+            android:name=".Average"
+            android:theme="@android:style/Theme.Light" >
+        </activity>
+        <activity android:name="SyllabusStatusActivity"
+            android:theme="@android:style/Theme.Light" ></activity>
+    </application>
+
+</manifest>

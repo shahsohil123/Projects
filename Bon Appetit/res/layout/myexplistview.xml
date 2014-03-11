@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"> 
+    
+    <!-- Show on Map button -->
+    <Button android:id="@+id/btn_show_map"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Show Places on Map"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="10dip"/>
+    <LinearLayout 
+        android:id="@+id/linear"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_below="@+id/btn_show_map"> 
+    <TextView
+        android:layout_weight="0.5"
+        android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    
+    android:text="@string/SwipeLeft"/>
+    
+    <TextView
+        android:layout_weight="0.5"
+        android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:gravity="right"
+     android:text="@string/SwipeRight"/>
+   
+        </LinearLayout>
+    <!--  List view -->
+    <ExpandableListView
+        android:id="@+id/expandableListView1"
+        android:layout_below="@+id/btn_show_map"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+    </ExpandableListView>
+    
+    
+ 
+</RelativeLayout>

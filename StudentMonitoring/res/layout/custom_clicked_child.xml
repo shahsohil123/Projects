@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/linearLayoutclicked"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <ExpandableListView
+            android:id="@+id/expandableListViewclicked"
+            android:layout_width="0dp"
+            android:layout_height="240dp"
+            android:layout_weight="1"
+            android:textColor="#0000FF"
+          	android:animateLayoutChanges="true"
+          	android:clipChildren="false"
+          	android:minHeight="48dp"
+          	
+            >
+        </ExpandableListView>
+
+    </LinearLayout>

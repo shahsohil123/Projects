@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/tieup"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dip"
+         />
+    
+     <TextView android:id="@+id/ourid1"
+        android:visibility="gone"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"/>
+     
+    <TextView
+        android:id="@+id/address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dip"
+         />
+
+    <TextView
+        android:id="@+id/phone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:layout_marginTop="5dip" />
+
+    <TextView
+        android:id="@+id/latitude"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:layout_marginTop="5dip" />
+
+    <TextView
+        android:id="@+id/longitude"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:layout_marginTop="5dip" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="2" >
+
+        <Button
+            android:id="@+id/share"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="0dp"
+            android:layout_weight="1.5"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dip"
+            android:paddingRight="10dip"
+            android:text="Share"
+            android:textSize="20sp"
+            android:background="@drawable/headerbackground"
+            android:onClick="shareButton"
+            android:tag="nothing"
+             />
+
+        <Button
+            android:id="@+id/thumbsdown"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:paddingTop="15dip"
+            android:paddingBottom="15dip"
+            android:drawableRight="@drawable/thumbsdown"
+            android:layout_weight="0.5"
+            android:background="@drawable/list_background"
+            android:onClick="thumbsDown"
+            android:paddingRight="7dip"
+            
+             />
+
+    </LinearLayout>
+    
+    
+   
+</LinearLayout>

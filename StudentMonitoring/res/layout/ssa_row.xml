@@ -1,0 +1,52 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/linearLayout1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="48sp"
+        android:background="@android:color/white" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="200dp"
+            android:layout_height="match_parent"
+            android:paddingLeft="20dp"
+            android:paddingTop="15dp"
+            android:text="TextView" />
+
+        <LinearLayout
+            android:id="@+id/ssimgbaroutermost"
+            android:layout_width="600dp"
+            android:layout_height="match_parent"
+            android:background="@android:color/white"
+            android:orientation="vertical"
+            android:paddingTop="15dp" >
+
+            <LinearLayout
+                android:id="@+id/linearLayout3"
+                android:layout_width="600dp"
+                android:layout_height="20dp"
+                android:background="@color/unt"
+                android:orientation="vertical" >
+
+                <ImageView
+                    android:id="@+id/ssimg"
+                    android:layout_width="600dp"
+                    android:layout_height="20dp" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingLeft="40dp"
+            android:paddingTop="15dp"
+            android:text="TextView" />
+    </LinearLayout>
+
+</LinearLayout>

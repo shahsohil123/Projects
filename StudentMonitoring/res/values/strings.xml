@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, PieGraphActivity!</string>
+    <string name="app_name">Student Monitoring</string>
+    <color name="white">#fff</color>
+    <drawable name="pending">#ff0</drawable>
+    <color name="black">#000</color>
+    <string name="subjectFilters">Subject Filters</string>
+    <string name="pending_act">Pending</string>
+    <string name="good_act">Good</string>
+    <string name="poor_act">Poor</string>
+    <string name="avg_act">Average</string>
+	<color name="unt">#eeeeee</color>
+	<color name="red">#FF0000</color>
+</resources>
